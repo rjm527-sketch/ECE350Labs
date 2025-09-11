@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Sep 10 23:01:19 2025
+# Process ID: 24176
+# Current directory: C:/Users/ryan1/OneDrive/Documents/Projects/ECE350Lab1Miller/ECE350Lab1Miller.runs/synth_1
+# Command line: vivado.exe -log compute_c_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source compute_c_top.tcl
+# Log file: C:/Users/ryan1/OneDrive/Documents/Projects/ECE350Lab1Miller/ECE350Lab1Miller.runs/synth_1/compute_c_top.vds
+# Journal file: C:/Users/ryan1/OneDrive/Documents/Projects/ECE350Lab1Miller/ECE350Lab1Miller.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source compute_c_top.tcl -notrace
