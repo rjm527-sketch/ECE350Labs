@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../Sobel_class_tb.cpp in debug mode
+   Compiling ../../../../Sobel_class.cpp in debug mode
+   Generating csim.exe
+Sobel stats: min=0 max=255 mean=56.4853
+Wrote C:/Users/ryan1/OneDrive/Desktop/ECE350_Workspace/sobel_out.ppm — open it with any viewer that supports PPM.
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

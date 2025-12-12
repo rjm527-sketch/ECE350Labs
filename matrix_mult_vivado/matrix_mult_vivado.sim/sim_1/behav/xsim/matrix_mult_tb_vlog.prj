@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Lab4_MatrixMult/solution1/impl/verilog/matrix_mult.v" \
+"../../../../matrix_mult_vivado.srcs/sim_1/new/vivado_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

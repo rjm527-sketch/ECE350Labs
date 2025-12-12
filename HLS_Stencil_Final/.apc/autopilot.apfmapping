@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="stencil_try1.cpp" path="C:\Users\ryan1\Downloads\stencil_try1.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="stencil_tb_try1.cpp" path="C:\Users\ryan1\Downloads\stencil_tb_try1.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

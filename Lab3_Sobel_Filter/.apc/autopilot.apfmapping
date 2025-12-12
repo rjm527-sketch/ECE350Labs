@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Sobel_class.cpp" path="C:\Users\ryan1\OneDrive\Desktop\ECE350_Workspace\ECE350Labs\Sobel_class.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="Sobel_class_tb.cpp" path="C:\Users\ryan1\OneDrive\Desktop\ECE350_Workspace\ECE350Labs\Sobel_class_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

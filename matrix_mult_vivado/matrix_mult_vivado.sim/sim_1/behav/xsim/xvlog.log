@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ryan1/OneDrive/Desktop/ECE350_Workspace/ECE350Labs/Lab4_MatrixMult/solution1/impl/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ryan1/OneDrive/Desktop/ECE350_Workspace/ECE350Labs/matrix_mult_vivado/matrix_mult_vivado.srcs/sim_1/new/vivado_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_tb

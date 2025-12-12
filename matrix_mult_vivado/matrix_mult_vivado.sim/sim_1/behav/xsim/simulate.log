@@ -1,0 +1,9 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+--- RTL Simulation Results ---
+C[0][0] =         19 (Expected: 19)
+C[0][1] =         22 (Expected: 22)
+C[1][0] =         43 (Expected: 43)
+C[1][1] =         50 (Expected: 50)
+>>> TEST PASSED <<<
+$stop called at time : 485 ns : File "C:/Users/ryan1/OneDrive/Desktop/ECE350_Workspace/ECE350Labs/matrix_mult_vivado/matrix_mult_vivado.srcs/sim_1/new/vivado_tb.v" Line 160

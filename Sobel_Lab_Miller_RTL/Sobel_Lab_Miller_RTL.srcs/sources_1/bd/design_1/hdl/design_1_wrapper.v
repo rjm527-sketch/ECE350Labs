@@ -1,0 +1,24 @@
+//Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+//--------------------------------------------------------------------------------
+//Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+//Date        : Fri Oct 24 21:58:24 2025
+//Host        : MillerLaptop running 64-bit major release  (build 9200)
+//Command     : generate_target design_1_wrapper.bd
+//Design      : design_1_wrapper
+//Purpose     : IP block netlist
+//--------------------------------------------------------------------------------
+`timescale 1 ps / 1 ps
+
+module design_1_wrapper
+   (clk_100MHz,
+    reset_rtl_0);
+  input clk_100MHz;
+  input reset_rtl_0;
+
+  wire clk_100MHz;
+  wire reset_rtl_0;
+
+  design_1 design_1_i
+       (.clk_100MHz(clk_100MHz),
+        .reset_rtl_0(reset_rtl_0));
+endmodule

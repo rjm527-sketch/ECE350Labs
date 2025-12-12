@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="matrix_mult" xd:componentRef="matrix_mult" xd:initiationInterval="38" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="mat_a[0][0]" xd:originalName="mat_a00" xd:direction="in" xd:interfaceRef="mat_a_0_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_a[0][1]" xd:originalName="mat_a01" xd:direction="in" xd:interfaceRef="mat_a_0_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_a[1][0]" xd:originalName="mat_a10" xd:direction="in" xd:interfaceRef="mat_a_1_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_a[1][1]" xd:originalName="mat_a11" xd:direction="in" xd:interfaceRef="mat_a_1_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_b[0][0]" xd:originalName="mat_b00" xd:direction="in" xd:interfaceRef="mat_b_0_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_b[0][1]" xd:originalName="mat_b01" xd:direction="in" xd:interfaceRef="mat_b_0_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_b[1][0]" xd:originalName="mat_b10" xd:direction="in" xd:interfaceRef="mat_b_1_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_b[1][1]" xd:originalName="mat_b11" xd:direction="in" xd:interfaceRef="mat_b_1_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_c[0][0]" xd:originalName="mat_c00" xd:direction="out" xd:interfaceRef="mat_c_0_0" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="3" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_c[0][1]" xd:originalName="mat_c01" xd:direction="out" xd:interfaceRef="mat_c_0_1" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="3" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_c[1][0]" xd:originalName="mat_c10" xd:direction="out" xd:interfaceRef="mat_c_1_0" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="3" xd:arraySize="1"/>
+  <xd:arg xd:name="mat_c[1][1]" xd:originalName="mat_c11" xd:direction="out" xd:interfaceRef="mat_c_1_1" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="3" xd:arraySize="1"/>
+  <xd:latencyEstimates xd:best-case="37" xd:worst-case="37" xd:average-case="37"/>
+  <xd:resourceEstimates xd:LUT="383" xd:FF="212" xd:BRAM="0" xd:DSP="3"/>
+</xd:acceleratorMap>

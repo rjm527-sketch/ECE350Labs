@@ -1,0 +1,66 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717938",
+   "Default View_TopLeft":"-481,-82",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port clk_in -pg 1 -lvl 0 -x -20 -y -340 -defaultsOSRD
+preplace portBus c00 -pg 1 -lvl 4 -x 730 -y -150 -defaultsOSRD
+preplace portBus c01 -pg 1 -lvl 4 -x 730 -y -50 -defaultsOSRD
+preplace portBus c10 -pg 1 -lvl 4 -x 730 -y 70 -defaultsOSRD
+preplace portBus c11 -pg 1 -lvl 4 -x 730 -y 190 -defaultsOSRD
+preplace portBus a00 -pg 1 -lvl 0 -x -20 -y -220 -defaultsOSRD
+preplace portBus a01 -pg 1 -lvl 0 -x -20 -y -190 -defaultsOSRD
+preplace portBus a10 -pg 1 -lvl 0 -x -20 -y -150 -defaultsOSRD
+preplace portBus a11 -pg 1 -lvl 0 -x -20 -y -110 -defaultsOSRD
+preplace portBus b00 -pg 1 -lvl 0 -x -20 -y 190 -defaultsOSRD
+preplace portBus b01 -pg 1 -lvl 0 -x -20 -y 230 -defaultsOSRD
+preplace portBus b10 -pg 1 -lvl 0 -x -20 -y 280 -defaultsOSRD
+preplace portBus b11 -pg 1 -lvl 0 -x -20 -y 320 -defaultsOSRD
+preplace inst mult_gen_0 -pg 1 -lvl 1 -x 170 -y -390 -defaultsOSRD
+preplace inst mult_gen_1 -pg 1 -lvl 1 -x 170 -y -250 -defaultsOSRD
+preplace inst mult_gen_2 -pg 1 -lvl 1 -x 170 -y -110 -defaultsOSRD
+preplace inst mult_gen_3 -pg 1 -lvl 1 -x 170 -y 30 -defaultsOSRD
+preplace inst mult_gen_4 -pg 1 -lvl 1 -x 170 -y 220 -defaultsOSRD
+preplace inst mult_gen_5 -pg 1 -lvl 1 -x 170 -y 360 -defaultsOSRD
+preplace inst mult_gen_6 -pg 1 -lvl 1 -x 170 -y 500 -defaultsOSRD
+preplace inst mult_gen_7 -pg 1 -lvl 1 -x 170 -y 640 -defaultsOSRD
+preplace inst c_addsub_0 -pg 1 -lvl 2 -x 400 -y -250 -defaultsOSRD
+preplace inst c_addsub_1 -pg 1 -lvl 2 -x 400 -y -80 -defaultsOSRD
+preplace inst c_addsub_2 -pg 1 -lvl 2 -x 400 -y 80 -defaultsOSRD
+preplace inst c_addsub_3 -pg 1 -lvl 2 -x 400 -y 240 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -x 600 -y -150 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 3 -x 600 -y -50 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 3 -x 600 -y 70 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 3 -x 600 -y 190 -defaultsOSRD
+preplace netloc a00_1 1 0 1 50 -390n
+preplace netloc b00_1 1 0 1 40 -370n
+preplace netloc b10_1 1 0 1 60 -230n
+preplace netloc b01_1 1 0 1 50 -90n
+preplace netloc b11_1 1 0 1 30 50n
+preplace netloc a10_1 1 0 1 20 -150n
+preplace netloc a11_1 1 0 1 0 -110n
+preplace netloc mult_gen_0_P 1 1 1 260 -390n
+preplace netloc mult_gen_1_P 1 1 1 260 -260n
+preplace netloc mult_gen_2_P 1 1 1 N -110
+preplace netloc mult_gen_3_P 1 1 1 260 -90n
+preplace netloc mult_gen_4_P 1 1 1 260 50n
+preplace netloc mult_gen_5_P 1 1 1 280 70n
+preplace netloc mult_gen_6_P 1 1 1 290 210n
+preplace netloc mult_gen_7_P 1 1 1 300 230n
+preplace netloc c_addsub_0_S 1 2 1 490 -250n
+preplace netloc c_addsub_1_S 1 2 1 490 -80n
+preplace netloc c_addsub_2_S 1 2 1 490 70n
+preplace netloc c_addsub_3_S 1 2 1 490 190n
+preplace netloc xlslice_0_Dout 1 3 1 N -150
+preplace netloc xlslice_1_Dout 1 3 1 N -50
+preplace netloc xlslice_2_Dout 1 3 1 N 70
+preplace netloc xlslice_3_Dout 1 3 1 N 190
+preplace netloc clk_in_1 1 0 2 10 -470 270
+preplace netloc a01_1 1 0 1 70 -250n
+levelinfo -pg 1 -20 170 400 600 730
+pagesize -pg 1 -db -bbox -sgen -130 -770 840 870
+"
+}
+
